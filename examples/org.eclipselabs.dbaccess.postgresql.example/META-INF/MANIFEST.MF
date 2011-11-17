@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PostgreSQL JDBC Example
+Bundle-SymbolicName: org.eclipselabs.dbaccess.postgresql.example
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: EclipseLabs
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.osgi.service.jdbc;version="1.0.0"
+Service-Component: OSGI-INF/test_db.xml
+Bundle-ActivationPolicy: lazy
